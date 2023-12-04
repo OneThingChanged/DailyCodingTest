@@ -167,6 +167,7 @@
     <ClInclude Include="Level2\OilDrilling.h" />
     <ClInclude Include="Level2\AntiMissileSystem.h" />
     <ClInclude Include="Level2\PreliminaryTranslation.h" />
+    <ClInclude Include="Level2\SumConsecutive.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

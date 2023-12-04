@@ -12,6 +12,7 @@
 #include "Level2/OilDrilling.h"
 #include "Level2/AntiMissileSystem.h"
 #include "Level2/PreliminaryTranslation.h"
+#include "Level2/SumConsecutive.h"
 
 class MainClass
 {
@@ -45,7 +46,10 @@ public:
         // AntiMissileSystem antiMissile;
         // antiMissile.Question();
 
-        PreliminaryTranslation antiMissile;
+        // PreliminaryTranslation antiMissile;
+        // antiMissile.Question();
+
+        SumConsecutive antiMissile;
         antiMissile.Question();
     }
 };
