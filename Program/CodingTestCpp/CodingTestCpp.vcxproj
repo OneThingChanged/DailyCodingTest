@@ -166,6 +166,7 @@
     <ClInclude Include="Level2\Clock.h" />
     <ClInclude Include="Level2\OilDrilling.h" />
     <ClInclude Include="Level2\AntiMissileSystem.h" />
+    <ClInclude Include="Level2\PreliminaryTranslation.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

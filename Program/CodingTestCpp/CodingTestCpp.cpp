@@ -11,6 +11,7 @@
 #include "Level2/Clock.h"
 #include "Level2/OilDrilling.h"
 #include "Level2/AntiMissileSystem.h"
+#include "Level2/PreliminaryTranslation.h"
 
 class MainClass
 {
@@ -25,8 +26,8 @@ public:
             Level2();
             break;
         }
-        AIOven quest;
-        quest.Question();
+        // AIOven quest;
+        // quest.Question();
     }
 
     void Level1()
@@ -41,7 +42,10 @@ public:
 
     void Level2()
     {
-        AntiMissileSystem antiMissile;
+        // AntiMissileSystem antiMissile;
+        // antiMissile.Question();
+
+        PreliminaryTranslation antiMissile;
         antiMissile.Question();
     }
 };
