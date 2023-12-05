@@ -164,6 +164,7 @@
     <ClInclude Include="level1\2.Templars_Weapon.h" />
     <ClInclude Include="Level2\AIOven.h" />
     <ClInclude Include="Level2\Clock.h" />
+    <ClInclude Include="Level2\DoAssignment.h" />
     <ClInclude Include="Level2\OilDrilling.h" />
     <ClInclude Include="Level2\AntiMissileSystem.h" />
     <ClInclude Include="Level2\PreliminaryTranslation.h" />

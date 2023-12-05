@@ -11,6 +11,7 @@
 #include "Level2/Clock.h"
 #include "Level2/OilDrilling.h"
 #include "Level2/AntiMissileSystem.h"
+#include "Level2/DoAssignment.h"
 #include "Level2/PreliminaryTranslation.h"
 #include "Level2/SumConsecutive.h"
 
@@ -48,8 +49,11 @@ public:
 
         // PreliminaryTranslation antiMissile;
         // antiMissile.Question();
+        //
+        // SumConsecutive antiMissile;
+        // antiMissile.Question();
 
-        SumConsecutive antiMissile;
+        DoAssignment antiMissile;
         antiMissile.Question();
     }
 };
@@ -59,7 +63,7 @@ int main(int argc, char* argv[])
     main.Run();
 
     // 사용자 입력을 기다립니다.
-    std::cout << "프로그램을 종료하려면 엔터 키를 누르세요..." << std::endl;
+    std::cout << "Please Click enter to close program" << std::endl;
     std::cin.get();
 
     return 0;
