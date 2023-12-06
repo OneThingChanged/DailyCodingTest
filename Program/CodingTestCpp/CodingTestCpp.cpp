@@ -12,6 +12,7 @@
 #include "Level2/OilDrilling.h"
 #include "Level2/AntiMissileSystem.h"
 #include "Level2/DoAssignment.h"
+#include "Level2/Minecraft.h"
 #include "Level2/PreliminaryTranslation.h"
 #include "Level2/SumConsecutive.h"
 
@@ -53,7 +54,10 @@ public:
         // SumConsecutive antiMissile;
         // antiMissile.Question();
 
-        DoAssignment antiMissile;
+        // DoAssignment antiMissile;
+        // antiMissile.Question();
+
+        Minecraft antiMissile;
         antiMissile.Question();
     }
 };
