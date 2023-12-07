@@ -171,6 +171,7 @@
     <ClInclude Include="Level2\PreliminaryTranslation.h" />
     <ClInclude Include="Level2\SoloTicTacTok.h" />
     <ClInclude Include="Level2\SumConsecutive.h" />
+    <ClInclude Include="Level2\RicochatRobot.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
