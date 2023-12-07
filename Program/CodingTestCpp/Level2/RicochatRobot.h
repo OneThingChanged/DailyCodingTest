@@ -8,26 +8,23 @@ using namespace std;
 
 //https://school.programmers.co.kr/learn/courses/30/lessons/178870
 //리코쳇 로봇
-static class SumConsecutive
+class RicochatRobot
 {
 public:
-    
-    int dx[] = {0, 0, 1, -1};
-    int dy[] = {1, -1, 0, 0};
 
     struct Pos
     {
-        int x;
-        int y;
-        int dist;
+        int x = 0;
+        int y = 0;
+        int dist = 0;
     };
     void Question()
     {
         vector<string> board1 = {"...D..R", ".D.G...", "....D.D", "D....D.", "..D...."};
-        cout << solution(board1, board1.size()) << endl; // Output: 7
+        cout << solution(board1) << endl; // Output: 7
 
         vector<string> board2 = {".D.R", "....", ".G..", "...D"};
-        cout << solution(board2, board2.size()) << endl; // Output: -1
+        cout << solution(board2) << endl; // Output: -1
     }    
     
     // board_len은 배열 board의 길이입니다.
@@ -35,11 +32,14 @@ public:
     int solution(vector<string> board) {
         int n = board.size();
         int m = board[0].size();
+
+        int dx[] = {0, 0, 1, -1};
+        int dy[] = {1, -1, 0, 0};
         
         Pos startPos;
         Pos endPos;
-        bool isFoundStartPos;
-        bool isFoundEndPos;
+        bool isFoundStartPos = false;
+        bool isFoundEndPos = false;
         for (int i = 0; i < board.size(); ++i)
         {
             for (int j = 0; j < m; ++j) {
@@ -71,13 +71,25 @@ public:
             for (int i = 0; i < 4; ++i) {
                 int nx = cur.x + dx[i];
                 int ny = cur.y + dy[i];
-            
+
+                while (AbleToMove(nx + dx[i], ny + dy[i], board))
+                {
+                    nx = nx + dx[i];
+                    ny = ny + dy[i];
+                }
                 if (nx >= 0 && nx < n && ny >= 0 && ny < m && !visited[nx][ny] && board[nx][ny] != 'D') {
                     visited[nx][ny] = true;
                     q.push({nx, ny, cur.dist + 1});
                 }
             }
+
+            
         }
         return -1;
+    }
+
+    bool AbleToMove(int x, int y, vector<string>& board)
+    {
+        return x < board.size() && y < board[x].size() && board[x][y] != 'D';  
     }
 };

@@ -14,6 +14,7 @@
 #include "Level2/DoAssignment.h"
 #include "Level2/Minecraft.h"
 #include "Level2/PreliminaryTranslation.h"
+#include "Level2/RicochatRobot.h"
 #include "Level2/SumConsecutive.h"
 
 class MainClass
@@ -57,7 +58,10 @@ public:
         // DoAssignment antiMissile;
         // antiMissile.Question();
 
-        Minecraft antiMissile;
+        // Minecraft antiMissile;
+        // antiMissile.Question();
+
+        RicochatRobot antiMissile;
         antiMissile.Question();
     }
 };
