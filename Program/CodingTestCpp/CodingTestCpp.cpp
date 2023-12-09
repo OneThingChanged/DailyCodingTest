@@ -12,6 +12,7 @@
 #include "Level2/OilDrilling.h"
 #include "Level2/AntiMissileSystem.h"
 #include "Level2/DoAssignment.h"
+#include "Level2/MazeEscape.h"
 #include "Level2/Minecraft.h"
 #include "Level2/PreliminaryTranslation.h"
 #include "Level2/RicochatRobot.h"
@@ -64,8 +65,11 @@ public:
 
         // RicochatRobot antiMissile;
         // antiMissile.Question();
+        
+        // SoloTicTacTok antiMissile;
+        // antiMissile.Question();
 
-        SoloTicTacTok antiMissile;
+        MazeEscape antiMissile;
         antiMissile.Question();
     }
 };
