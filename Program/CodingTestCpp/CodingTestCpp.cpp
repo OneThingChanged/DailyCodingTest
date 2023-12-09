@@ -15,6 +15,7 @@
 #include "Level2/Minecraft.h"
 #include "Level2/PreliminaryTranslation.h"
 #include "Level2/RicochatRobot.h"
+#include "Level2/SoloTicTacTok.h"
 #include "Level2/SumConsecutive.h"
 
 class MainClass
@@ -61,7 +62,10 @@ public:
         // Minecraft antiMissile;
         // antiMissile.Question();
 
-        RicochatRobot antiMissile;
+        // RicochatRobot antiMissile;
+        // antiMissile.Question();
+
+        SoloTicTacTok antiMissile;
         antiMissile.Question();
     }
 };
