@@ -11,11 +11,16 @@
 #include "Level2/Clock.h"
 #include "Level2/OilDrilling.h"
 #include "Level2/AntiMissileSystem.h"
+#include "Level2/ConvertNumber.h"
+#include "Level2/DesertIslandTrip.h"
 #include "Level2/DoAssignment.h"
+#include "Level2/FindLargeNumberFromBack.h"
+#include "Level2/HotelManager.h"
 #include "Level2/MazeEscape.h"
 #include "Level2/Minecraft.h"
 #include "Level2/PreliminaryTranslation.h"
 #include "Level2/RicochatRobot.h"
+#include "Level2/SeesawPartner.h"
 #include "Level2/SoloTicTacTok.h"
 #include "Level2/SumConsecutive.h"
 
@@ -69,7 +74,22 @@ public:
         // SoloTicTacTok antiMissile;
         // antiMissile.Question();
 
-        MazeEscape antiMissile;
+        // MazeEscape antiMissile;
+        // antiMissile.Question();
+
+        // HotelManager antiMissile;
+        // antiMissile.Question();
+
+        // DesertIslandTrip antiMissile;
+        // antiMissile.Question();
+
+        // FindLargeNumberFromBack antiMissile;
+        // antiMissile.Question();
+        
+        // ConvertNumber antiMissile;
+        // antiMissile.Question();
+
+        SeesawPartner antiMissile;
         antiMissile.Question();
     }
 };

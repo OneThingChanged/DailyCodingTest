@@ -164,12 +164,17 @@
     <ClInclude Include="level1\2.Templars_Weapon.h" />
     <ClInclude Include="Level2\AIOven.h" />
     <ClInclude Include="Level2\Clock.h" />
+    <ClInclude Include="Level2\ConvertNumber.h" />
+    <ClInclude Include="Level2\DesertIslandTrip.h" />
     <ClInclude Include="Level2\DoAssignment.h" />
+    <ClInclude Include="Level2\FindLargeNumberFromBack.h" />
+    <ClInclude Include="Level2\HotelManager.h" />
     <ClInclude Include="Level2\MazeEscape.h" />
     <ClInclude Include="Level2\Minecraft.h" />
     <ClInclude Include="Level2\OilDrilling.h" />
     <ClInclude Include="Level2\AntiMissileSystem.h" />
     <ClInclude Include="Level2\PreliminaryTranslation.h" />
+    <ClInclude Include="Level2\SeesawPartner.h" />
     <ClInclude Include="Level2\SoloTicTacTok.h" />
     <ClInclude Include="Level2\SumConsecutive.h" />
     <ClInclude Include="Level2\RicochatRobot.h" />
