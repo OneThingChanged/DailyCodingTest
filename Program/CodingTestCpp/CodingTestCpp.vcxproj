@@ -165,10 +165,12 @@
     <ClInclude Include="Level2\AIOven.h" />
     <ClInclude Include="Level2\Clock.h" />
     <ClInclude Include="Level2\ConvertNumber.h" />
+    <ClInclude Include="Level2\DefenceGame.h" />
     <ClInclude Include="Level2\DesertIslandTrip.h" />
     <ClInclude Include="Level2\DoAssignment.h" />
     <ClInclude Include="Level2\FindLargeNumberFromBack.h" />
     <ClInclude Include="Level2\HotelManager.h" />
+    <ClInclude Include="Level2\MagicElevator.h" />
     <ClInclude Include="Level2\MazeEscape.h" />
     <ClInclude Include="Level2\Minecraft.h" />
     <ClInclude Include="Level2\OilDrilling.h" />

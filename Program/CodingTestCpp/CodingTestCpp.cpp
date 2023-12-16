@@ -12,10 +12,12 @@
 #include "Level2/OilDrilling.h"
 #include "Level2/AntiMissileSystem.h"
 #include "Level2/ConvertNumber.h"
+#include "Level2/DefenceGame.h"
 #include "Level2/DesertIslandTrip.h"
 #include "Level2/DoAssignment.h"
 #include "Level2/FindLargeNumberFromBack.h"
 #include "Level2/HotelManager.h"
+#include "Level2/MagicElevator.h"
 #include "Level2/MazeEscape.h"
 #include "Level2/Minecraft.h"
 #include "Level2/PreliminaryTranslation.h"
@@ -89,7 +91,13 @@ public:
         // ConvertNumber antiMissile;
         // antiMissile.Question();
 
-        SeesawPartner antiMissile;
+        // SeesawPartner antiMissile;
+        // antiMissile.Question();
+
+        // MagicElevator antiMissile;
+        // antiMissile.Question();
+
+        DefenceGame antiMissile;
         antiMissile.Question();
     }
 };
