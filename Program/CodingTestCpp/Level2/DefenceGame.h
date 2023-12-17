@@ -33,6 +33,7 @@ public:
         cout << solution(n3, k3, enemy3) << endl;  // 5
     }
     
+    
     int solution(int n, int k, vector<int> enemy) {
         int answer = 0;
         priority_queue<int, vector<int>, greater<>> pq;
