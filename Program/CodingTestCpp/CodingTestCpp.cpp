@@ -11,6 +11,7 @@
 #include "Level2/Clock.h"
 #include "Level2/OilDrilling.h"
 #include "Level2/AntiMissileSystem.h"
+#include "Level2/ChooseOrange.h"
 #include "Level2/ConvertNumber.h"
 #include "Level2/DefenceGame.h"
 #include "Level2/DesertIslandTrip.h"
@@ -23,6 +24,7 @@
 #include "Level2/PreliminaryTranslation.h"
 #include "Level2/RicochatRobot.h"
 #include "Level2/SeesawPartner.h"
+#include "Level2/SetDot.h"
 #include "Level2/SoloTicTacTok.h"
 #include "Level2/SumConsecutive.h"
 
@@ -97,7 +99,16 @@ public:
         // MagicElevator antiMissile;
         // antiMissile.Question();
 
-        DefenceGame antiMissile;
+        // DefenceGame antiMissile;
+        // antiMissile.Question();
+        //
+        // ChooseOrange antiMissile;
+        // antiMissile.Question();
+
+        // ChooseOrange antiMissile;
+        // antiMissile.Question();
+
+        SetDot antiMissile;
         antiMissile.Question();
     }
 };

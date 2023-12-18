@@ -163,6 +163,7 @@
     <ClInclude Include="level1\1.SuffixArray.h" />
     <ClInclude Include="level1\2.Templars_Weapon.h" />
     <ClInclude Include="Level2\AIOven.h" />
+    <ClInclude Include="Level2\ChooseOrange.h" />
     <ClInclude Include="Level2\Clock.h" />
     <ClInclude Include="Level2\ConvertNumber.h" />
     <ClInclude Include="Level2\DefenceGame.h" />
@@ -177,6 +178,7 @@
     <ClInclude Include="Level2\AntiMissileSystem.h" />
     <ClInclude Include="Level2\PreliminaryTranslation.h" />
     <ClInclude Include="Level2\SeesawPartner.h" />
+    <ClInclude Include="Level2\SetDot.h" />
     <ClInclude Include="Level2\SoloTicTacTok.h" />
     <ClInclude Include="Level2\SumConsecutive.h" />
     <ClInclude Include="Level2\RicochatRobot.h" />
